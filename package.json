@@ -1,0 +1,47 @@
+{
+  "name": "Dagwood",
+  "version": "0.0.1",
+  "description": "Bi-directional (sandwiching) middleware for Connect-like applications",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha -R spec ./tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nvite/dagwood.git"
+  },
+  "keywords": [
+    "connect",
+    "express",
+    "middleware",
+    "bi-directional",
+    "request",
+    "response",
+    "sandwich",
+    "dagwood"
+  ],
+  "author": {
+    "name": "nvite, Inc.",
+    "email": "nerds@nvite.com",
+    "url": "nvite.com"
+  },
+  "contributors": [
+    {
+      "name": "Dan Drinkard",
+      "email": "dan@nvite.com"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nvite/dagwood/issues"
+  },
+  "homepage": "https://github.com/nvite/dagwood",
+  "devDependencies": {
+    "connect": "^3.3.1",
+    "expect": "^0.1.1",
+    "express": "^4.10.0",
+    "mocha": "^2.0.1",
+    "should": "^4.1.0",
+    "supertest": "^0.14.0"
+  }
+}
