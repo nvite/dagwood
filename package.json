@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Bi-directional (sandwiching) middleware for Connect-like applications",
   "main": "index.js",
+  "engines" : { "node" : ">=0.10.3 <0.12" },
   "scripts": {
     "test": "mocha -R spec ./tests/**/*.js"
   },
