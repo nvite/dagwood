@@ -46,7 +46,7 @@ What's worse, `res.send`/`res.end` stop the middleware stack in its tracks and w
 back to the browser, so you've got to do horrible things to even the most trivially
 complex controllers to get any code reuse where postprocessing is concerned.
 
-## Let Dagwood do those horrible things for you.
+## Let Dagwood do those horrible things for you
 
 Dagwood *sandwiches* your routes by decorating `res.[s]end` to call a response handler
 prior to closing out. This can be stacked to arbitrary depths and follows LIFO on the response
