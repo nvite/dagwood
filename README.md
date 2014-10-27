@@ -3,6 +3,8 @@ Dagwood
 
 Create bi-directional middleware for more delicious routes.
 
+[![Build status on Travis-CI](https://travis-ci.org/nvite/dagwood.svg)](https://travis-ci.org/nvite/dagwood)
+
 ## The problem
 
 Connect middleware is great--it feels a lot like coding against Rack or WSGI
