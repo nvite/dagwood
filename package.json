@@ -1,5 +1,5 @@
 {
-  "name": "Dagwood",
+  "name": "dagwood",
   "version": "0.0.1",
   "description": "Bi-directional (sandwiching) middleware for Connect-like applications",
   "main": "index.js",
