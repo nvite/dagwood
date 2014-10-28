@@ -3,7 +3,7 @@ Dagwood
 
 Create bi-directional middleware for more delicious routes.
 
-[![Build status on Travis-CI](https://travis-ci.org/nvite/dagwood.svg)](https://travis-ci.org/nvite/dagwood)
+[![Build status on Travis-CI](https://travis-ci.org/nvite/dagwood.svg)](https://travis-ci.org/nvite/dagwood) [![Deps status on David](https://david-dm.org/nvite/dagwood.png)](https://david-dm.org/nvite/dagwood)
 
 ## The problem
 
